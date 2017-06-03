@@ -10,7 +10,7 @@ exports.getHashes = function () {
   return hashes
 }
 
-var p = require('pbkdf2')
+var p = require('../pbkdf2/browser')
 exports.pbkdf2 = p.pbkdf2
 exports.pbkdf2Sync = p.pbkdf2Sync
 
